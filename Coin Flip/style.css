@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.container {
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 400px; 
+    width: 100%;
+    background-color: #ffffff; 
+}
+
+.card {
+    width: max-content;
+    border-radius: 5px;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f8f8f8; 
+}
+
+.button {
+    width: 100%;
+    max-width: 180px;
+    height: 50px;
+    padding: 5px;
+    color: #ffffff; 
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    background-color: #3498db; 
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #2a80b9; 
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-left: 12px;
+    border-radius: 50%; 
+}
+
+.textArea, .ResultArea {
+    border-style: solid;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f8f8f8; 
+}
+
+.choice {
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    margin-left: 25px;
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+}
+
+.ResetContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ResetContainer .button {
+    background-color: #2ecc71; 
+    color: #ffffff; 
+}
+
+.ResetContainer .button:hover {
+    background-color: #27ae60; 
+}
+#img {
+    transition: transform 0.5s ease;
+}
+
+.rotate {
+    transform: rotateX(180deg);
+}
